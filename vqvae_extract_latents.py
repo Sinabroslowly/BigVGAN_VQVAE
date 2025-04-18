@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from accelerate import Accelerator
 from diffusers import VQModel
-from scripts.dataset_vqvae import AudioDataset
+from scripts_vqvae.dataset_vqvae import AudioDataset
 
 def extract_latents(model, data_loader, device, output_dir, accelerator):
     """
