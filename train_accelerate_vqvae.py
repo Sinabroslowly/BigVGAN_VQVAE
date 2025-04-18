@@ -15,8 +15,8 @@ import argparse
 import numpy as np
 import matplotlib.pyplot as plt
 
-from scripts.dataset_vqvae import AudioDataset
-from scripts.meldataset import get_mel_spectrogram
+from scripts_vqvae.dataset_vqvae import AudioDataset
+from scripts_vqvae.meldataset import get_mel_spectrogram
 
 
 
